@@ -1,0 +1,94 @@
+var jsonData ={
+	"store": {
+		"name": "ABC store",
+		"address": "ABC street , ABC city",
+		"books": {
+			"category": [{
+				"fiction": [{
+						"author": "ABC fiction 1",
+						"title": "Title fiction ABC1",
+						"price": 8.95,
+						"publishers": [{
+							"publishers ABC1": {
+								"instock": 100,
+								"homedelivery": "yes"
+							},
+							"publishers ABC11": {
+								"instock": 10,
+								"homedelivery": "no"
+							},
+							"publishers ABC111": {
+								"instock": 10,
+								"homedelivery": "yes"
+							}
+						}]
+					},
+					{
+						"author": "ABC fiction 2",
+						"title": "Title fiction ABC2",
+						"price": 8.95
+					},
+					{
+						"author": "ABC fiction 3",
+						"title": "Title fiction ABC3",
+						"price": 8.95,
+						"publishers": [{
+							"publishers ABC1": {
+								"instock": 100,
+								"homedelivery": "yes"
+							},
+							"publishers ABC11": {
+								"instock": 10,
+								"homedelivery": "no"
+							},
+							"publishers ABC111": {
+								"instock": 10,
+								"homedelivery": "yes"
+							}
+						}]
+					}
+				],
+				"horror": [{
+						"author": "ABC horror 1",
+						"title": "Title horror ABC1",
+						"price": 8.95,
+						"publishers": [{
+							"publishers ABC1": {
+								"instock": 100,
+								"homedelivery": "yes"
+							},
+							"publishers ABC11": {
+								"instock": 10,
+								"homedelivery": "no"
+							},
+							"publishers ABC111": {
+								"instock": 10,
+								"homedelivery": "yes"
+							}
+						}]
+					},
+					{
+						"author": "ABC horror 2",
+						"title": "Title horror ABC2",
+						"price": 8.95,
+						"publishers": [{
+							"publishers ABC1": {
+								"instock": 100,
+								"homedelivery": "yes"
+							},
+							"publishers ABC11": {
+								"instock": 10,
+								"homedelivery": "no"
+							},
+							"publishers ABC111": {
+								"instock": 10,
+								"homedelivery": "yes"
+							}
+						}]
+					}
+				]
+			}]
+
+		}
+	}
+}
